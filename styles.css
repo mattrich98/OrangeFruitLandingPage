@@ -3,7 +3,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; /*+ below v v v*/
+    min-height: 100vh; /*this is how to put the footer on the bottom*/
 }
 
 .header {
@@ -16,15 +17,18 @@ body {
 }
 
 .herosection {
-
+    background-color: yellow;
+    flex: 1; /*flex:1 fills in the gaps on justify-content: space-between;*/
 }
 
 .infosection {
-
+    background-color: green;
+    flex: 1;
 }
 
 .quotesection {
-
+    background-color: aqua;
+    flex: 1;
 }
 
 .footer {
