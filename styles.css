@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /*+ below v v v v*/
-    min-height: 100vh; /*this is how to put the footer on the bottom*/
+    min-height: 100vh; /*this is how to put the footer on the bottom <----*/
 }
 
 .header {
@@ -18,14 +18,14 @@ body {
     justify-content: space-between;
 }
 
-.headerlinks {
-    display: flex;
-    gap: 35px;
+.headerlinks { 
+    display: flex; /*this is necessary to split the flexbox's left-right <----*/
+    gap: 35px; 
 }
 
 .herosection {
     background-color: yellow;
-    flex: 1; /*flex:1 fills in the gaps on justify-content: space-between;*/
+    flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
 }
 
 .infosection {
