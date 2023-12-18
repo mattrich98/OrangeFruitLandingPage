@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    
+    display: flex;
+}
+
+.herosection {
+
+}
+
+.infosection {
+
+}
+
+.quotesection {
+
+}
+
+.footer {
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
