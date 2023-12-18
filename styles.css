@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /*+ below v v v*/
+    justify-content: space-between; /*+ below v v v v*/
     min-height: 100vh; /*this is how to put the footer on the bottom*/
 }
 
@@ -11,9 +12,15 @@ body {
     color: white;
     background-color: red;
     font-size: 20px;
-    padding: 10px 10px 10px 10px;
-    
+    padding: 10px 200px 10px 200px;
+
     display: flex;
+    justify-content: space-between;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 35px;
 }
 
 .herosection {
@@ -40,6 +47,9 @@ body {
 
     display: flex;
     flex-direction: column;
-
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
