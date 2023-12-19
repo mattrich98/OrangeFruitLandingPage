@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ body {
     color: white;
     background-color: red;
     font-size: 20px;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 280px 10px 280px;
 
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@ body {
 .headerlinks { 
     display: flex; /*this is necessary to split the flexbox's left-right <----*/
     gap: 35px; 
+
 }
 
 .herosection {
@@ -43,7 +44,7 @@ body {
     background-color: blue;
     font-size: 20px;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 280px 10px 280px;
 
     display: flex;
     flex-direction: column;
