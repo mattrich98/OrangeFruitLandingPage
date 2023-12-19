@@ -27,7 +27,24 @@ body {
 .herosection {
     background-color: yellow;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
+    font-size: 20px;
+    padding: 10px 280px 10px 280px;
+
 }
+
+.herocontainerleft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+ 
+}
+
+.herocontainerright {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 
 .infosection {
     background-color: green;
