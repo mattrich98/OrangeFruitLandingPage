@@ -39,6 +39,11 @@ body {
     flex: 1;
 }
 
+.bottomsignupsection {
+    background-color: pink;
+    flex: 1;
+}
+
 .footer {
     color: white;
     background-color: blue;
