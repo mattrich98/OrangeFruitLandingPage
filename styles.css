@@ -12,7 +12,7 @@ body {
     color: white;
     background-color: red;
     font-size: 20px;
-    padding: 10px 420px 10px 420px;
+    padding: 10px 480px 10px 480px;
 
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body {
 .herosection {
     background-color: yellow;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
-    padding: 10px 420px 10px 420px;
+    padding: 10px 480px 10px 480px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: space-between;
 
@@ -50,7 +50,7 @@ body {
 .infosection {
     background-color: green;
     flex: 1;
-    padding: 10px 420px 10px 420px;
+    padding: 10px 480px 10px 480px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: center;
     flex-direction: column;
@@ -94,7 +94,7 @@ body {
     background-color: blue;
     font-size: 20px;
     text-align: center;
-    padding: 10px 420px 10px 420px;
+    padding: 10px 480px 10px 480px;
 
     display: flex;
     flex-direction: column;
