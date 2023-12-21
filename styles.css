@@ -102,6 +102,7 @@ body {
 .bottomsignupsection {
     background-color: pink;
     flex: 1;
+    padding: 10px 480px 10px 480px;
 }
 
 .footer {
