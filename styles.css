@@ -51,9 +51,10 @@ body {
 .herosection {
     background-color: #1F2937;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
-    padding: 10px 480px 10px 480px;
+    padding: 100px 480px 100px 480px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: space-between;
+    
 
 }
 
@@ -74,7 +75,7 @@ body {
 .infosection {
     background-color: white;
     flex: 1;
-    padding: 10px 480px 10px 480px;
+    padding: 100px 100px 100px 100px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: center;
     flex-direction: column;
@@ -111,6 +112,8 @@ body {
 .quotecontainer {
     display: flex;
     flex-direction: column;
+
+    margin: 100px 100px 100px 100px;
 }
 
 .quote {
@@ -151,7 +154,8 @@ body {
     background-color: #3882F6;
     border: solid 0px;
     border-radius: 5px;
-
+    padding: 50px 20px 50px 20px;
+    margin: 100px 100px 100px 100px;
 }
 
 infosignupgroupleft {
