@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -103,6 +105,30 @@ body {
     background-color: pink;
     flex: 1;
     padding: 10px 480px 10px 480px;
+}
+
+.signupcontainer {
+
+}
+
+.signupbox {
+
+}
+
+.infosignupgroupleft {
+
+}
+
+.titlesignup {
+
+}
+
+.info signup {
+
+}
+
+infosignupgroupright {
+
 }
 
 .footer {
