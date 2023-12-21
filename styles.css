@@ -52,11 +52,30 @@ body {
     flex: 1;
     padding: 10px 420px 10px 420px;
     display: flex; /*this aligns div children inside left right <--------*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infotitle {
+    text-align: center;
+}
+
+.infoimagerow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
 
 .infoimage {
     border-radius: 18px;
     border: solid 3px blue;
+
+}
+
+.infoP {
+    text-align: center;
+    width: 150px;
 }
 
 .quotesection {
