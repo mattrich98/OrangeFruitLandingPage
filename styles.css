@@ -12,7 +12,7 @@ body {
     color: white;
     background-color: red;
     font-size: 20px;
-    padding: 10px 280px 10px 280px;
+    padding: 10px 420px 10px 420px;
 
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body {
 .herosection {
     background-color: yellow;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
-    padding: 10px 280px 10px 280px;
+    padding: 10px 420px 10px 420px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: space-between;
 
@@ -47,17 +47,22 @@ body {
     align-items: center;
 }
 
-
-
-
 .infosection {
     background-color: green;
     flex: 1;
+    padding: 10px 420px 10px 420px;
+    display: flex; /*this aligns div children inside left right <--------*/
+}
+
+.infoimage {
+    border-radius: 18px;
+    border: solid 3px blue;
 }
 
 .quotesection {
     background-color: aqua;
     flex: 1;
+    
 }
 
 .bottomsignupsection {
@@ -70,7 +75,7 @@ body {
     background-color: blue;
     font-size: 20px;
     text-align: center;
-    padding: 10px 280px 10px 280px;
+    padding: 10px 420px 10px 420px;
 
     display: flex;
     flex-direction: column;
