@@ -1,4 +1,6 @@
-
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
 
 body {
     margin: 0px;
@@ -12,7 +14,7 @@ body {
 
 .header {
     color: white;
-    background-color: red;
+    background-color: #1F2937;
     font-size: 20px;
     padding: 10px 480px 10px 480px;
 
@@ -20,14 +22,34 @@ body {
     justify-content: space-between;
 }
 
+.headertitle {
+    font-size: 24pxpx;
+    font-weight: bolder;
+}
+
+.herotitle {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.herosubtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .headerlinks { 
     display: flex; /*this is necessary to split the flexbox's left-right <----*/
     gap: 35px; 
 
+    color: #E5E7EB;
+    font-size: 18px;
+    
+
 }
 
 .herosection {
-    background-color: yellow;
+    background-color: #1F2937;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
     padding: 10px 480px 10px 480px;
     display: flex; /*this aligns div children inside left right <--------*/
@@ -50,7 +72,7 @@ body {
 }
 
 .infosection {
-    background-color: green;
+    background-color: white;
     flex: 1;
     padding: 10px 480px 10px 480px;
     display: flex; /*this aligns div children inside left right <--------*/
@@ -71,7 +93,7 @@ body {
 
 .infoimage {
     border-radius: 18px;
-    border: solid 3px blue;
+    border: solid 3px #3882F6;
 
 }
 
@@ -81,7 +103,7 @@ body {
 }
 
 .quotesection {
-    background-color: aqua;
+    background-color: #E5E7EB;
     flex: 1;
     padding: 10px 480px 10px 480px;
 }
@@ -94,15 +116,23 @@ body {
 .quote {
     display: flex;
     justify-content: left;
+
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    
 }
 
 .quoteauthor {
     display: flex;
     justify-content: right;
+
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 .bottomsignupsection {
-    background-color: pink;
+    background-color: white;
     flex: 1;
     padding: 10px 480px 10px 480px;
 }
@@ -117,6 +147,10 @@ body {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+
+    background-color: #3882F6;
+    border: solid 0px;
+    border-radius: 5px;
 
 }
 
@@ -134,19 +168,19 @@ infosignupgroupright {
 }
 
 .titlesignup {
-
+    color: white;
 }
 
-.info signup {
-
+.infosignup {
+    color: #E5E7EB;
 }
 
 
 
 .footer {
-    color: white;
-    background-color: blue;
-    font-size: 20px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 14px;
     text-align: center;
     padding: 10px 480px 10px 480px;
 
@@ -157,4 +191,19 @@ infosignupgroupright {
 a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: solid 0px;
+    border-radius: 5px;
+    height: 27px;
+    width: 95px;    
+}
+
+button#bottombutton {
+    border: solid 1px white;
+
 }
