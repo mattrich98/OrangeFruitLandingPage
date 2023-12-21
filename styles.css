@@ -84,12 +84,19 @@ body {
     padding: 10px 480px 10px 480px;
 }
 
-.quote {
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+}
 
+.quote {
+    display: flex;
+    justify-content: left;
 }
 
 .quoteauthor {
-
+    display: flex;
+    justify-content: right;
 }
 
 .bottomsignupsection {
