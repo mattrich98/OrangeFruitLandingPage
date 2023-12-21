@@ -112,11 +112,25 @@ body {
 }
 
 .signupbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 
 }
 
-.infosignupgroupleft {
+infosignupgroupright {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;    
+}
 
+infosignupgroupright {
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .titlesignup {
@@ -127,9 +141,7 @@ body {
 
 }
 
-infosignupgroupright {
 
-}
 
 .footer {
     color: white;
