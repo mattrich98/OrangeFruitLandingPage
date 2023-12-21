@@ -186,14 +186,14 @@ infosignupgroupright {
     background-color: #1F2937;
     font-size: 14px;
     text-align: center;
-    padding: 10px 480px 10px 480px;
+    padding: 30px 480px 30px 480px;
 
     display: flex;
     flex-direction: column;
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
