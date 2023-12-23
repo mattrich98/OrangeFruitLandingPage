@@ -230,7 +230,13 @@ button {
     width: 130px;    
 }
 
+button:hover {
+    transition: 0.15s;
+    color: #bfc0c2;
+    background-color: #f67438
+}
+
 button#bottombutton {
     border: solid 2px white;
-
 }
+
