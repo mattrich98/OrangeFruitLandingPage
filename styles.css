@@ -16,14 +16,15 @@ body {
     color: white;
     background-color: #1F2937;
     font-size: 20px;
-    padding: 10px 480px 10px 480px;
+    padding: 10px 450px 10px 450px;
 
     display: flex;
     justify-content: space-between;
 }
 
 .headertitle {
-    font-size: 24pxpx;
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -51,9 +52,10 @@ body {
 .herosection {
     background-color: #1F2937;
     flex: 1; /*flex:1 fills in the gaps on justify-content: space-between; <----*/
-    padding: 100px 480px 100px 480px;
+    padding: 100px 450px 100px 450px;
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: space-between;
+    gap: 50px;
     
 
 }
@@ -64,6 +66,7 @@ body {
     justify-content: center;
     align-items: left;
     text-align: left; 
+    gap: 5px;
 }
 
 .herocontainerright {
@@ -110,7 +113,7 @@ body {
 .quotesection {
     background-color: #E5E7EB;
     flex: 1;
-    padding: 10px 480px 10px 480px;
+    padding: 10px 450px 10px 450px;
 }
 
 .quotecontainer {
@@ -199,7 +202,7 @@ infosignupgroupright {
     background-color: #1F2937;
     font-size: 14px;
     text-align: center;
-    padding: 30px 480px 30px 480px;
+    padding: 30px 450px 30px 450px;
 
     display: flex;
     flex-direction: column;
