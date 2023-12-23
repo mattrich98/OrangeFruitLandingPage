@@ -202,9 +202,9 @@ infosignupgroupright {
 .footer {
     color: #E5E7EB;
     background-color: #1F2937;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
-    padding: 30px 450px 30px 450px;
+    padding: 40px 450px 40px 450px;
 
     display: flex;
     flex-direction: column;
