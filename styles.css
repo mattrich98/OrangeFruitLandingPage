@@ -120,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    margin: 100px 100px 100px 100px;
+    margin: 100px 120px 100px 120px;
 }
 
 .quote {
@@ -128,7 +128,7 @@ body {
     justify-content: left;
 
     color: #1F2937;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
     text-align: left;
