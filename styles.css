@@ -83,6 +83,12 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 75px;
+
+    background-image: url(./images/orangeinfobackground.jpg);
+    background-size: 60px auto;
+    background-position: bottom;
+    background-size: 75px 600px;
+    box-shadow:  30px 100px 1000px 50px #ff9a48c0;
 }
 
 .infotitle {
@@ -108,6 +114,7 @@ body {
 .infoP {
     text-align: center;
     width: 150px;
+    padding-bottom: 30px;
 }
 
 .quotesection {
@@ -148,7 +155,7 @@ body {
 
 .bottomsignupsection {
     background-size: 2000px auto;
-    background-image: url(./images/orangesbackground.jpg);
+    background-image: url(./images/orangefallinganimation.gif);
 }
 
 .signupcontainer {
@@ -249,3 +256,10 @@ button#bottombutton {
     border: solid 2px white;
 }
 
+.orange {
+    color: #f67438;
+}
+
+.heroimage {
+    border-radius: 10px;
+}
