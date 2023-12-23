@@ -38,6 +38,7 @@ body {
 .herosubtext {
     color: #E5E7EB;
     font-size: 18px;
+    line-height: 25px;
 }
 
 .headerlinks { 
@@ -217,14 +218,19 @@ a {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    font-size: large;
     font-weight: 600;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
     border: solid 0px;
     border-radius: 5px;
-    height: 27px;
-    width: 95px;    
+    height: 35px;
+    width: 130px;    
 }
 
 button#bottombutton {
-    border: solid 1px white;
+    border: solid 2px white;
 
 }
