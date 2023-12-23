@@ -25,13 +25,14 @@ body {
 .headertitle {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bolder;    
 }
 
 .herotitle {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    line-height: 55px;
 }
 
 .herosubtext {
@@ -129,10 +130,10 @@ body {
 
     color: #1F2937;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: italic;
     text-align: left;
-    
+    line-height: 45px;
 }
 
 .quoteauthor {
