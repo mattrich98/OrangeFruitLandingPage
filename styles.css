@@ -230,7 +230,7 @@ button {
     width: 130px;    
 }
 
-button:hover {
+button:active {
     transition: 0.15s;
     color: #bfc0c2;
     background-color: #f67438
