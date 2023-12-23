@@ -79,9 +79,13 @@ body {
     display: flex; /*this aligns div children inside left right <--------*/
     justify-content: center;
     flex-direction: column;
+    gap: 75px;
 }
 
 .infotitle {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
     text-align: center;
 }
 
