@@ -2,6 +2,10 @@
 <h3>Project: Landing Page</h3>
 A landing-page website built using newly learned CSS and Flexbox skills.
 <br>
+<h4>Link to website:</h4>
+https://mattrich98.github.io/Project-Landing-Page/
+<br>
+<br>
 <hr>
 <ul>
 <br>
