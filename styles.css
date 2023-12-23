@@ -230,6 +230,12 @@ button {
     width: 130px;    
 }
 
+button:hover {
+    transition: 0.15s;
+    color: #dddfe2;
+    background-color: #fa8e5c
+}
+
 button:active {
     transition: 0.15s;
     color: #bfc0c2;
